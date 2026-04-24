@@ -50,8 +50,8 @@ export function Contact() {
               </p>
             </div>
 
-            <div className="space-y-6">
-              <div className="flex flex-col items-center text-center gap-4 md:flex-row md:items-start md:text-left">
+            <div className="grid grid-cols-2 gap-x-3 gap-y-6 md:grid-cols-1 md:gap-y-6">
+              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <Phone className="h-6 w-6 text-primary" />
@@ -64,7 +64,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-4 md:flex-row md:items-start md:text-left">
+              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <Mail className="h-6 w-6 text-primary" />
@@ -77,7 +77,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-4 md:flex-row md:items-start md:text-left">
+              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <MapPin className="h-6 w-6 text-primary" />
@@ -90,7 +90,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-4 md:flex-row md:items-start md:text-left">
+              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <Clock className="h-6 w-6 text-primary" />

@@ -13,7 +13,7 @@ export function Hero() {
               <h1 className="text-4xl md:text-5xl font-bold text-neutral-900 leading-tight text-balance text-center md:text-left">
                 Professioneller Hausmeisterservice für Ihren Frieden
               </h1>
-              <p className="text-lg text-neutral-600 leading-relaxed text-balance">
+              <p className="text-base md:text-lg text-neutral-600 leading-relaxed text-balance text-center md:text-left">
                 Marco Mager bietet zuverlässige Hausmeister- und Handwerkservices. Von Reparaturen bis Renovierungen – wir kümmern uns um alles mit handwerklicher Qualität und persönlicher Betreuung.
               </p>
             </div>
