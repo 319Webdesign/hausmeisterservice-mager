@@ -57,9 +57,9 @@ export function Contact() {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <div>
+                <div className="min-w-0 w-full">
                   <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Telefon</h3>
-                  <p className="text-neutral-600 mt-1">0151/72885736</p>
+                  <p className="text-neutral-600 mt-1 break-words">0151/72885736</p>
                   <p className="text-sm text-neutral-500">Mo-Fr 8:00 - 18:00 Uhr</p>
                 </div>
               </div>
@@ -70,9 +70,9 @@ export function Contact() {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <div>
+                <div className="min-w-0 w-full">
                   <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Email</h3>
-                  <p className="text-neutral-600 mt-1">MarcomagerHMS@web.de</p>
+                  <p className="text-neutral-600 mt-1 break-all md:break-normal">MarcomagerHMS@web.de</p>
                   <p className="text-sm text-neutral-500">Antwort innerhalb 24h</p>
                 </div>
               </div>
@@ -83,10 +83,10 @@ export function Contact() {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <div>
+                <div className="min-w-0 w-full">
                   <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Adresse</h3>
-                  <p className="text-neutral-600 mt-1">Mühltal 87a</p>
-                  <p className="text-neutral-600">56154 Boppard</p>
+                  <p className="text-neutral-600 mt-1 break-words">Mühltal 87a</p>
+                  <p className="text-neutral-600 break-words">56154 Boppard</p>
                 </div>
               </div>
 
@@ -96,10 +96,16 @@ export function Contact() {
                     <Clock className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <div>
+                <div className="min-w-0 w-full">
                   <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Öffnungszeiten</h3>
-                  <p className="text-neutral-600 mt-1">Montag - Freitag: 8:00 - 18:00 Uhr</p>
-                  <p className="text-neutral-600">Samstag: 9:00 - 14:00 Uhr</p>
+                  <p className="text-neutral-600 mt-1 break-words">
+                    <span className="block md:inline">Montag - Freitag: </span>
+                    <span className="block md:inline">8:00 - 18:00 Uhr</span>
+                  </p>
+                  <p className="text-neutral-600 break-words">
+                    <span className="block md:inline">Samstag: </span>
+                    <span className="block md:inline">9:00 - 14:00 Uhr</span>
+                  </p>
                 </div>
               </div>
             </div>
