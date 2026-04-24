@@ -50,61 +50,61 @@ export function Contact() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-x-3 gap-y-6 md:grid-cols-1 md:gap-y-6">
-              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
+            <div className="grid grid-cols-2 gap-x-3 gap-y-4 md:grid-cols-1 md:gap-y-6">
+              <div className="flex flex-col items-center text-center gap-3 rounded-xl bg-neutral-50 p-3 md:flex-row md:items-start md:gap-4 md:bg-transparent md:p-0 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                 </div>
                 <div className="min-w-0 w-full">
-                  <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Telefon</h3>
-                  <p className="text-neutral-600 mt-1 break-words">0151/72885736</p>
+                  <h3 className="text-base md:text-lg font-semibold text-neutral-900 text-center md:text-left">Telefon</h3>
+                  <p className="text-sm md:text-base text-neutral-600 mt-1 break-words">0151/72885736</p>
                   <p className="text-sm text-neutral-500">Mo-Fr 8:00 - 18:00 Uhr</p>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
+              <div className="flex flex-col items-center text-center gap-3 rounded-xl bg-neutral-50 p-3 md:flex-row md:items-start md:gap-4 md:bg-transparent md:p-0 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                 </div>
                 <div className="min-w-0 w-full">
-                  <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Email</h3>
-                  <p className="text-neutral-600 mt-1 break-all md:break-normal">MarcomagerHMS@web.de</p>
+                  <h3 className="text-base md:text-lg font-semibold text-neutral-900 text-center md:text-left">Email</h3>
+                  <p className="text-sm md:text-base text-neutral-600 mt-1 break-all md:break-normal">MarcomagerHMS@web.de</p>
                   <p className="text-sm text-neutral-500">Antwort innerhalb 24h</p>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
+              <div className="flex flex-col items-center text-center gap-3 rounded-xl bg-neutral-50 p-3 md:flex-row md:items-start md:gap-4 md:bg-transparent md:p-0 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                 </div>
                 <div className="min-w-0 w-full">
-                  <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Adresse</h3>
-                  <p className="text-neutral-600 mt-1 break-words">Mühltal 87a</p>
-                  <p className="text-neutral-600 break-words">56154 Boppard</p>
+                  <h3 className="text-base md:text-lg font-semibold text-neutral-900 text-center md:text-left">Adresse</h3>
+                  <p className="text-sm md:text-base text-neutral-600 mt-1 break-words">Mühltal 87a</p>
+                  <p className="text-sm md:text-base text-neutral-600 break-words">56154 Boppard</p>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:gap-4 md:text-left min-w-0">
+              <div className="flex flex-col items-center text-center gap-3 rounded-xl bg-neutral-50 p-3 md:flex-row md:items-start md:gap-4 md:bg-transparent md:p-0 md:text-left min-w-0">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-100">
                     <Clock className="h-6 w-6 text-primary" />
                   </div>
                 </div>
                 <div className="min-w-0 w-full">
-                  <h3 className="text-lg font-semibold text-neutral-900 text-center md:text-left">Öffnungszeiten</h3>
-                  <p className="text-neutral-600 mt-1 break-words">
-                    <span className="block md:inline">Montag - Freitag: </span>
-                    <span className="block md:inline">8:00 - 18:00 Uhr</span>
+                  <h3 className="text-base md:text-lg font-semibold text-neutral-900 text-center md:text-left">Öffnungszeiten</h3>
+                  <p className="text-sm md:text-base text-neutral-600 mt-1 break-words">
+                    <span className="md:hidden">Montag - Freitag:<br />8:00 - 18:00 Uhr</span>
+                    <span className="hidden md:inline">Montag - Freitag: 8:00 - 18:00 Uhr</span>
                   </p>
-                  <p className="text-neutral-600 break-words">
-                    <span className="block md:inline">Samstag: </span>
-                    <span className="block md:inline">9:00 - 14:00 Uhr</span>
+                  <p className="text-sm md:text-base text-neutral-600 break-words">
+                    <span className="md:hidden">Samstag:<br />9:00 - 14:00 Uhr</span>
+                    <span className="hidden md:inline">Samstag: 9:00 - 14:00 Uhr</span>
                   </p>
                 </div>
               </div>
